@@ -1,8 +1,8 @@
 terraform {
 backend  "http" {
-address = "https://eu3-smax.saas.microfocus.com/iac-controller/v1/506666606/terraform/statejp/backend"
-lock_address = "https://eu3-smax.saas.microfocus.com/iac-controller/v1/506666606/terraform/statejp/backend/lock"
-unlock_address = "https://eu3-smax.saas.microfocus.com/iac-controller/v1/506666606/terraform/statejp/backend/lock"
+address = "https://eu3-smax.saas.microfocus.com/iac-controller/v1/506666606/terraform/Workspace1/backend"
+lock_address = "https://eu3-smax.saas.microfocus.com/iac-controller/v1/506666606/terraform/Workspace1/backend/lock"
+unlock_address = "https://eu3-smax.saas.microfocus.com/iac-controller/v1/506666606/terraform/Workspace1/backend/lock"
 lock_method = "POST"
 unlock_method ="DELETE"
 username = "506666606/jean-patrick.kong@microfocus.com"
