@@ -9,7 +9,6 @@ username = "506666606/jean-patrick.kong@microfocus.com"
 password = "Automation_123"
 skip_cert_verification = "true"
 }
-address= "https://
   required_version = "~> 1.0" 
   required_providers {
     aws = {
